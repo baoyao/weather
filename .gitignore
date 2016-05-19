@@ -53,7 +53,7 @@ build.xml
 map.txt
 
 .gitignore~
-
+*.*~
 
 
 

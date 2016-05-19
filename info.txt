@@ -1,0 +1,25 @@
+
+查询ip和所在城市:
+http://ip168.com/json.do?view=myipaddress
+
+身份证地址查询:
+http://ip168.com/index.do?view=sfz&keyword=身份证号码
+
+手机号码归属地查询:
+http://ip168.com/index.do?view=sjhm&keyword=手机号码
+
+地名查询邮编:
+http://ip168.com/index.do?view=dmcxyb&keyword=地名
+
+邮编查询地名:
+http://ip168.com/index.do?view=ybcxdm&keyword=地名
+
+
+
+根据城市的位置查询天气：
+http://api.map.baidu.com/telematics/v3/weather?location=北京&output=json&ak=FMvGjV8o6QMuxPum9ph2VdEK
+字符转URLEncoder：
+"http://api.map.baidu.com/telematics/v3/weather?location="
++ URLEncoder.encode(location, "utf-8")
++ "&output=json&ak=FMvGjV8o6QMuxPum9ph2VdEK"
+
